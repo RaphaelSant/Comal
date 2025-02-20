@@ -1,0 +1,50 @@
+.nav-shadow {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* Estilo para os botões do Navbar */
+.nav-button {
+    font-size: 1.1rem;
+    /* Tamanho maior */
+    font-weight: bold;
+    /* Texto em negrito */
+    position: relative;
+    /* Para o efeito de underline */
+    margin: 0 10px;
+    /* Espaçamento entre os botões */
+    padding: 5px 0;
+    /* Espaçamento interno */
+    transition: all 0.3s ease;
+    /* Transição suave */
+}
+
+/* Efeito de hover com underline */
+.nav-button::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    /* Inicialmente sem underline */
+    height: 2px;
+    background-color: var(--primary-color);
+    /* Cor laranja */
+    bottom: 0;
+    left: 50%;
+    /* Centraliza o underline */
+    transform: translateX(-50%);
+    transition: width 0.3s ease;
+    /* Transição suave */
+}
+
+/* Expandir o underline no hover */
+.nav-button:hover::after {
+    width: 100%;
+    color: black;
+    background-color: black;
+    /* Expandir para 100% */
+}
+
+/* Cor do texto no hover */
+.nav-button:hover {
+    color: black;
+    /* Garante que a cor laranja prevaleça */
+}
