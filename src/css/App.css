@@ -30,11 +30,11 @@
 /* Botão da apresentação */
 .btn-outline-orange {
   border-color: white;
-  color: black;
+  font-weight: bold;
 }
 
 .btn-outline-orange:hover {
-  color: black;
+  color: black !important;
   background-color: var(--primary-color);
   border-color: var(--primary-color);
 }
