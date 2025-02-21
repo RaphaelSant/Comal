@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import '../App.css';
+import '../css/App.css';
 import '../css/Navbar.css';
 
 import Logo from "../assets/logo.png";

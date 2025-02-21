@@ -6,10 +6,11 @@ export default function Home() {
             <section id="home" className="hero-section">
                 <div className="container comal-glass p-4">
                     <div className="row text-center">
-                        <div className="d-flex flex-column justify-content-center">
-                            <h1 className="text-orange">COMAL Locação de Equipamentos</h1>
+                        <div className="d-flex flex-column align-items-center justify-content-center mr-3">
+                            <h1 className="d-none">COMAL Locação de Equipamentos</h1>
+                            <h3 className="text-orange">COMAL Locação de Equipamentos</h3>
                             <p className="text-white">Soluções em locação de máquinas pesadas para dragagem, navegação, rebocadores e balsas.</p>
-                            <button className="btn btn-outline-orange btn-lg">Saiba Mais</button>
+                            <button className="btn btn-outline-orange text-white w-50">Saiba Mais</button>
                         </div>
                     </div>
                 </div>
